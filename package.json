@@ -1,6 +1,7 @@
 {
   "name": "com.helloarron.cordova.toast",
   "version": "0.1.1",
+  "cordova_name": "AToast",
   "description": "A Cordova Toast plugin for Android",
   "cordova": {
     "id": "com.helloarron.cordova.toast",
