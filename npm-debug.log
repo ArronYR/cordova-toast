@@ -1,0 +1,56 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'adduser' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.25
+4 verbose adduser before first PUT { name: 'arron_yr',
+4 verbose adduser   password: 'XXXXX',
+4 verbose adduser   email: 'yangyun4814@gmail.com',
+4 verbose adduser   _id: 'org.couchdb.user:arron_yr',
+4 verbose adduser   type: 'user',
+4 verbose adduser   roles: [],
+4 verbose adduser   date: '2015-08-10T10:00:34.837Z' }
+5 verbose request where is /-/user/org.couchdb.user:arron_yr
+6 verbose request registry https://registry.npmjs.org/
+7 verbose request id 677e1b5425417c07
+8 verbose url raw /-/user/org.couchdb.user:arron_yr
+9 verbose url resolving [ 'https://registry.npmjs.org/',
+9 verbose url resolving   './-/user/org.couchdb.user:arron_yr' ]
+10 verbose url resolved https://registry.npmjs.org/-/user/org.couchdb.user:arron_yr
+11 verbose request where is https://registry.npmjs.org/-/user/org.couchdb.user:arron_yr
+12 info trying registry request attempt 1 at 18:00:34
+13 http PUT https://registry.npmjs.org/-/user/org.couchdb.user:arron_yr
+14 http 400 https://registry.npmjs.org/-/user/org.couchdb.user:arron_yr
+15 verbose headers { 'content-type': 'application/json',
+15 verbose headers   'cache-control': 'max-age=60',
+15 verbose headers   'content-length': '57',
+15 verbose headers   'accept-ranges': 'bytes',
+15 verbose headers   date: 'Mon, 10 Aug 2015 10:00:37 GMT',
+15 verbose headers   via: '1.1 varnish',
+15 verbose headers   connection: 'keep-alive',
+15 verbose headers   'x-served-by': 'cache-itm7422-ITM',
+15 verbose headers   'x-cache': 'MISS',
+15 verbose headers   'x-cache-hits': '0',
+15 verbose headers   'x-timer': 'S1439200836.769244,VS0,VE678' }
+16 verbose adduser back [ [Error: Unknown error while authenticating : -/user/org.couchdb.user:arron_yr],
+16 verbose adduser   { ok: false, error: 'Unknown error while authenticating' },
+16 verbose adduser   '{"ok":false,"error":"Unknown error while authenticating"}' ]
+17 error Error: Unknown error while authenticating : -/user/org.couchdb.user:arron_yr
+17 error     at RegClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:300:14)
+17 error     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:238:65)
+17 error     at Request.self.callback (/usr/lib/nodejs/request/index.js:148:22)
+17 error     at Request.EventEmitter.emit (events.js:98:17)
+17 error     at Request.<anonymous> (/usr/lib/nodejs/request/index.js:896:14)
+17 error     at Request.EventEmitter.emit (events.js:117:20)
+17 error     at IncomingMessage.<anonymous> (/usr/lib/nodejs/request/index.js:847:12)
+17 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+17 error     at _stream_readable.js:920:16
+17 error     at process._tickCallback (node.js:415:13)
+18 error If you need help, you may report this *entire* log,
+18 error including the npm and node versions, at:
+18 error     <http://github.com/npm/npm/issues>
+19 error System Linux 3.19.0-25-generic
+20 error command "/usr/bin/nodejs" "/usr/bin/npm" "adduser"
+21 error cwd /home/arron/AToast
+22 error node -v v0.10.25
+23 error npm -v 1.4.21
+24 verbose exit [ 1, true ]
