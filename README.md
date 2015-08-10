@@ -6,26 +6,26 @@ A Cordova Toast plugin for Android
 
 git clone git@github.com:ArronYR/cordova-toast.git
 
-download the plugin in you disk,e.g:E:\\test\
+`` download the plugin in you disk,e.g:E:\\test\ ``
 
 then,switch to the your cordova workspace and use next command:
 
-cordova plugin add E:\\test\
+`` cordova plugin add E:\\test\ ``
 
 ## How to use
-- AToast.toast();
+- `` AToast.toast(); ``
 >  defult toast message is "默认Toast样"
 
-- AToast.toast("hello cordova pulgin");
+- `` AToast.toast("hello cordova pulgin"); ``
 
 
-- AToast.toast("hello cordova pulgin", 'SHORT');
+- `` AToast.toast("hello cordova pulgin", 'SHORT'); ``
 > the second argument can be "SHORT" or "LONG"
 
-- AToast.toast("hello cordova pulgin", 'LONG', ['CENTER', 0, 0]);
+- `` AToast.toast("hello cordova pulgin", 'LONG', ['CENTER', 0, 0]); ``
 > the third argument is a Array likes the demo, it has three element
 >
-> ['CENTER', 0, 0]
+> `` ['CENTER', 0, 0] ``
 >> first element is a string, others are number
 >>
 >> the first element can be these values:
