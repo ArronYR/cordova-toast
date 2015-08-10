@@ -1,6 +1,6 @@
 {
   "name": "com.helloarron.cordova.toast",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Cordova Toast plugin for Android",
   "cordova": {
     "id": "com.helloarron.cordova.toast",
@@ -14,7 +14,8 @@
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-android"
+    "cordova-android",
+    "cordova-toast"
   ],
   "author": "Arron",
   "license": "Apache 2.0",
