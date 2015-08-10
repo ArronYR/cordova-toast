@@ -31,4 +31,5 @@ cordova plugin add com.helloarron.cordova.toast
 
 ## Contact
 email: yangyun4814@gmail.com
+
 blog: [http://blog.helloarron.com](http://blog.helloarron.com)
