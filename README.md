@@ -1,2 +1,2 @@
 # cordova-toast
-A cordova Toast plugin
+Android Toast for Cordova plugin
