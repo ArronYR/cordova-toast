@@ -3,7 +3,14 @@ A Cordova Toast plugin for Android
 
 
 ## Install plugin
-cordova plugin add com.helloarron.cordova.toast
+
+git clone git@github.com:ArronYR/cordova-toast.git
+
+download the plugin in you disk,e.g:E:\\test\
+
+then,switch to the your cordova workspace and use next command:
+
+cordova plugin add E:\\test\
 
 ## How to use
 - AToast.toast();
