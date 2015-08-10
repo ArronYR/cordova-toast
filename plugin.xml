@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin id="com.helloarron.cordova.toast" version="0.0.1"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>AToast</name>
+    <description>Android Toast Cordova Plugin</description>
+    <js-module name="AToast" src="www/AToast.js">
+        <merges target="AToast"/>
+        <clobbers target="AToast" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="AToast">
+                <param name="android-package" value="com.helloarron.cordova.toast.AToast"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/AToast.java" target-dir="src/com/helloarron/cordova/toast"/>
+    </platform>
+</plugin>
