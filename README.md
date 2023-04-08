@@ -35,8 +35,3 @@ then,switch to the your cordova workspace and use next command:
 >> defult value is "BOTTOM"
 >
 > current version has many bugs,welcome to correct.
-
-## Contact
-email: yangyun4814@gmail.com
-
-blog: [http://blog.helloarron.com](http://blog.helloarron.com)
